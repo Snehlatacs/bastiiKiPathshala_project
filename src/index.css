@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --primary: #0f172a;
+}
+
+/* index.css */
+.bg-primary { background-color: var(--primary); }
+
+.container { max-width: 1100px; margin-left: auto; margin-right: auto; }
+.text-primary { color: var(--primary); }
+
+@keyframes gradient-rotate {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-name {
+  background: linear-gradient(90deg, #0a273e, #315ac4, #5f0743);
+  background-size: 300% 300%;
+  animation: gradient-rotate 3s ease-in-out infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
