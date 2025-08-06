@@ -1,4 +1,4 @@
-# HopeHands - React + Tailwind NGO Starter
+# Basti Ki Pathshala - React + Tailwind NGO Starter
 
 ## What is included
 - Vite + React app
