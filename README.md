@@ -30,19 +30,18 @@ It’s perfect for small NGOs, charities, and community organizations to share t
 
 ## 📸 Screenshots
 
-| Home Page | About Us | Volunteer Form |
-|-----------|----------|----------------|
-| ![Home Page](assets/home.png) | ![About Us](assets/about.png) | ![Volunteer Form](assets/form.png) |
+| Home Page | About Us | Volunteer Form |Mobile |
+|-----------|----------|----------------|-------|
+| ![Home Page](src\assets\about.png) | ![About Us](src\assets\program.png) | ![Volunteer Form](src\assets\volunteer.png) |![Mobile](src\assets\ngoPhoto.jpg)
 
-> 📌 *Replace these images with actual screenshots from your `assets/` folder.*
-
+>
 ---
 
 ## 🚀 Quick Start
 
 1️⃣ **Clone or Download**
 ```bash
-git clone https://github.com/YOUR-USERNAME/bastiiKiPathshala_project.git
+git clone https://github.com/Snehlatacs/bastiiKiPathshala_project
 cd bastiiKiPathshala_project
 ```
 
@@ -89,7 +88,7 @@ Your app will be available at http://localhost:5173
 
 2. Add to package.json:
 ```
-"homepage": "https://YOUR-USERNAME.github.io/bastiiKiPathshala_project",
+"homepage": "https://github.com/Snehlatacs/bastiiKiPathshala_project",
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
@@ -137,5 +136,4 @@ For major changes, please open an issue first to discuss what you’d like to ch
 
 ## 💌 Contact
 
-📧 Email: [contact@bastiikipathshalaa.org](mailto:contact@bastiikipathshalaa.org)  
 📍 Location: **India**
